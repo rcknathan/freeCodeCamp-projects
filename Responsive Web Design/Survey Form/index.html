@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <div class="header">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Register on our platform</p>
+    </div>
+
+    <div class="center">
+        <div class="table">
+            <form id="survey-form">
+                <div class="section-form">
+                    <label id="name-label">Name:<input id="name" type="text" required placeholder="Enter Your Name"/></label>
+                </div>
+
+                <div class="section-form">
+                    <label id="email-label">Email:<input id="email" type="email" required placeholder="Enter Your Email"/></label>
+                </div>
+
+                <div class="section-form">
+                    <label id="number-label"> Age:<input id="number" type="number" min="13" max="120" placeholder="Age"/></label>
+                </div>
+
+                <div class="section-form">
+                    <label>Which option best describes your current role?</label>
+                    <select id="dropdown">
+                        <option class="op">(Select current role)</option>
+                        <option class="op">Student</option>
+                        <option class="op">Full Time Job</option>
+                        <option class="op">Full Time Learner</option>
+                        <option class="op">Other</option>
+                    </select>
+                </div>
+
+                <div class="section-form">
+                    <div class="align-text">
+                        <label>Would you recommend our platform to a friend?</label>
+                        <label><input type="radio" name="avaliation" class="check" value="definitely"/> Definitely</label>
+                        <label><input type="radio" name="avaliation" class="check" value="maybe"/> Maybe</label>
+                        <label><input type="radio" name="avaliation" class="check" value="not-sure"/> Not Sure</label>
+                    </div>
+                </div>
+
+                <div class="section-form">
+                    <div class="align-text">
+                        <label>What do you think our platform can improve?</label>
+                        <label><input class="check" type="checkbox" value="1"/> Usability</label>
+                        <label><input class="check" type="checkbox" value="2"/> Aesthetics</label>
+                        <label><input class="check" type="checkbox" value="3"/> Speed</label>
+                    </div>
+                </div>
+
+                <div class="section-form">
+                    <label>Any comments or suggestions?</label>
+                    <textarea id="text-area" placeholder="Enter a comment here..."></textarea>
+                </div>
+
+                <div class="section-form">
+                    <input type="submit" id="submit" value="Submit"/>
+                </div>
+            </form>
+        </div>
+    </div>
+  </body>
+</html>
