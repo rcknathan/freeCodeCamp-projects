@@ -1,0 +1,78 @@
+@media (max-width:450px){
+    body{background:#FFF;} 
+  }
+  
+  #navbar{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Estilo para o body */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 38px;
+    background-color: #262626;
+  }
+  
+  /* Estilo para o cabeçalho */
+  h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+  }
+
+  p {
+    color: #FFF;
+    text-align: center;
+  }
+  
+  /* Estilo para os links */
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  a:hover {
+    color: #0056;
+  }
+  
+  /* Estilo para a seção de boas-vindas */
+  #welcome-section {
+    background-color: #b01030;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  /* Estilo para a seção de projetos */
+  #projects {
+    padding: 20px;
+  }
+  
+  .project-tile {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para a barra de navegação */
+  #navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  #navbar a {
+    color: #fff;
+    margin-right: 20px;
+  }
+  
+  #navbar a:last-child {
+    margin-right: 0;
+  }
+  
